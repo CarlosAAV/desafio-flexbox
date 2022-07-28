@@ -61,10 +61,6 @@ aside{
     height: 8%;
     
 }
-#side-bar:hover{
-    background-color: #ececec;
-}
-
    
 #perfil-status{
     display: flex;
