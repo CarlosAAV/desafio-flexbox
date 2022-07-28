@@ -1,0 +1,165 @@
+body{
+font-family: 'Open Sans', sans-serif;
+}
+
+main{
+    display: flex;
+    min-height:100vh;
+    flex-direction: row;
+}
+ 
+aside{
+    display: flex;
+    background-color: white;
+    flex:0 0 20%;
+}
+
+#contenedor-chat{
+    display: flex;
+    background: #e8ebe4;
+    flex: 0 0 80%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+span{
+    font-weight: 1000;
+}
+
+#image{
+    width: 20rem;
+    margin-bottom: 10px;
+    border-radius: 2rem;
+}
+
+#text{
+    text-align: center;
+    
+}
+
+#text h1{
+    font-size: 3rem;
+    padding-bottom: 10px;
+}
+
+#text p{
+    padding-bottom: 5px;
+}
+
+aside{
+    display: flex;
+    flex-direction:column;
+}
+/*side bar*/ 
+#side-bar{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content:space-between;
+    border: solid 2px rgb(212, 212, 212);
+    height: 8%;
+    
+}
+#side-bar:hover{
+    background-color: #ececec;
+}
+
+   
+#perfil-status{
+    display: flex;
+    padding-top: 10px; 
+    padding-left: 10px;  
+}
+
+#fotoPerfil{
+    width: 3rem;
+    border-radius: 100%;
+    border: solid gray 2px;
+   
+}
+
+#textoPerfil{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    color: #b9b9b9; 
+}
+
+#titulo-perfil{
+    font-size: 25px;
+    color: black;
+}
+
+#icons{
+    display: flex;
+    font-size: 2rem;
+    align-items: center;
+    color:#aaaaaa;
+    padding:20px;
+     
+}
+
+.message{
+    padding-right: 10px;
+}
+
+/*-----------------------------------------------*/
+ 
+/*Botón*/
+
+#boton{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    border: solid 2px rgb(212, 212, 212);
+    height: 12%;
+    margin-top: 0.6px;
+}
+
+#boton button{
+height: 60px;
+width: 200px;
+background-color: #967cd1;
+border:none;
+color: white;
+font-size: 1.3rem;
+}
+
+#boton button:hover{
+    background-color: #8d73cf;
+}
+/*-----------------------------------------------*/
+
+/*usuarios*/
+
+.usuarios{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:left;
+    border: solid 2px rgb(212, 212, 212);
+    height: 12.82%;
+    margin-top: 0.6px;
+} 
+.usuarios-image{
+    border-radius: 100%;
+    width: 5rem;
+    margin-right: 15px;
+}
+
+.name-usuario{
+    font-size: 1.3rem;
+    color: black;
+}
+
+.message-usuario{
+    color:#b9b9b9 ;
+}
+
+.usuarios:hover{
+    background-color: #ececec;
+}
+
+/*------------------------------------------------------------------*/
