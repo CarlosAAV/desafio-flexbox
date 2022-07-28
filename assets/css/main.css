@@ -98,7 +98,16 @@ aside{
     align-items: center;
     color:#aaaaaa;
     padding:20px;
+    
      
+}
+
+.icons{
+    transition: 0.3s;
+}
+
+.icons:hover{
+    transform: scale(1.2, 1.2);
 }
 
 .message{
@@ -125,10 +134,13 @@ background-color: #967cd1;
 border:none;
 color: white;
 font-size: 1.3rem;
+box-shadow: inset 0 0 0 0 rgb(76, 0, 78);
+transition: ease-in-out 0.3s;
 }
 
+
 #boton button:hover{
-    background-color: #8d73cf;
+    box-shadow: inset 200px 0 0 0  rgb(136, 0, 141);
 }
 /*-----------------------------------------------*/
 
