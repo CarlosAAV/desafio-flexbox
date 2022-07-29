@@ -28,9 +28,29 @@ span{
 }
 
 #image{
-    width: 20rem;
-    margin-bottom: 10px;
-    border-radius: 2rem;
+    width: 15rem;
+    margin-bottom: 50px;
+    border-radius: 100%;
+    animation-name: image;
+    animation-duration: 4s;
+    position: relative;
+    animation-iteration-count: infinite;
+    box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+
+}
+
+@keyframes image{
+    0%{bottom: 0px;
+        box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);}
+    50%{bottom: 40px;
+    	box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-20px);}
+    100%{bottom:0px;
+        box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);}
+    
+    
 }
 
 #text{
